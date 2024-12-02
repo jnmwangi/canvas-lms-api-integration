@@ -1,4 +1,4 @@
-from helpers import courses, modules, assignments, quizzes
+from .helpers import courses, modules, assignments, quizzes
 
 # Create Course
 created_course = courses.create({"name":"Foundation of Data Analysis"})
