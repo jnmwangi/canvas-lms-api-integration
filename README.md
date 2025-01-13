@@ -14,10 +14,19 @@ CANVAS_LMS_ACCESS_TOKEN = your-access-token
 ```
 
 #### Package installations
+- Clone this repository and change directory to the project folder:
+```
+git clone git@github.com:jnmwangi/canvas-lms-api-integration.git && cd canvas-lms-api-integration
+```
+- Activate the vertual environment
+```
+python -m venv .venv && source .venv/bin/activate
+```
+- Install dependancies
 ```
 pip install -r requirements.txt
 ```
-## Running module
+- Running module
 ```
 python -m create_course
 ```
