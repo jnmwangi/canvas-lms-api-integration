@@ -38,12 +38,12 @@ for m in modules_data:
 # Create and add assignments
 assignments_data = [{
         "title":"Assignment 1",
-        "description":"&lt;p&gt;This would be a long html description&lt;/p&gt;",
+        "description":"This would be a long html description",
         "submission_types":["online_url","online_upload"]
     },
     {
       "title": "Assignment 2",
-      "description":"&lt;p&gt;This would be a long html description&lt;/p&gt;",
+      "description":"This would be a long html description",
         "submission_types":["online_url","online_upload"]
       }
 ]
